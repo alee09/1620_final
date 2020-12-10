@@ -8,16 +8,15 @@ body{
     display: grid;
 }
 
-.displayed-img {
+.displayed_img {
     width: 19.44%;
     display: inline-flex;
+
 }
 .interactive{
     margin: auto;
 }
-#inter-hidden{
-    visibility: hidden;
-}
+
 
 @media screen and (min-width: 640px){
     body{
