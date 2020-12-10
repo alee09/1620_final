@@ -1,4 +1,31 @@
-div img {
-    width: 20%;
+*{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+body{
+    align-content: center;
+    width: 80vw;
+    display: grid;
+}
+
+.displayed-img {
+    width: 19.44%;
+    display: inline-flex;
+}
+.interactive{
+    margin: auto;
+}
+#inter-hidden{
+    visibility: hidden;
+}
+
+@media screen and (min-width: 640px){
+    body{
+        width: 640px;
+        align-content: center;
+        margin: auto;
+    }
+    p{
+        text-align: left;
+    }
 }
